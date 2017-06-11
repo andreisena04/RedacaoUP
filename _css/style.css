@@ -1,0 +1,57 @@
+header{
+	margin: 1%;
+}
+header img{
+	margin-left: 12%;
+	margin-top: 0.5%;
+}
+header nav{
+	margin-left: 8%;
+	margin-top: 4%; 
+}
+header nav a{
+	margin: 3%;
+	text-decoration: none;
+	font-family: 'Bubbler One', sans-serif;
+	color: #009ed7;
+	font-size: 200%;
+}
+@media only screen and (max-width: 1042px){
+	header nav a{
+		font-size: 175%;
+	}
+}
+@media only screen and (max-width: 922px){
+	header nav a{
+		font-size: 150%;
+	}
+}
+@media only screen and (max-width: 808px){
+	header nav a{
+		font-size: 125%;
+	}
+}
+@media only screen and (max-width: 766px){
+	header nav a{
+		font-size: 200%;
+	}
+}
+@media only screen and (max-width: 712px){
+	header nav a{
+		font-size: 175%;
+	}
+}
+@media only screen and (max-width: 616px){
+	header nav a{
+		font-size: 150%;
+	}
+}
+header nav a:hover{
+	color: grey;
+	text-decoration: underline;
+}
+section{
+	height: 400px;
+	background-color: #009ed7;
+	margin: 0 -15px;
+}
