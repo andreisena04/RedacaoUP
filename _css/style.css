@@ -1,3 +1,6 @@
+.dropdown{
+	display: none;
+}
 header{
 	margin: 1%;
 }
@@ -44,6 +47,23 @@ header nav a{
 @media only screen and (max-width: 616px){
 	header nav a{
 		font-size: 150%;
+	}
+}
+@media only screen and (max-width: 536px){
+	#mobile{
+		display: block;
+		position: fixed;
+		margin-left: -1%;
+		margin-top: -20%;
+	}
+	#default{
+		display: none;
+	}
+	#menu-ativado li a{
+		color: #009ed7;
+	}
+	#menu-ativado li a:hover{
+		background-color: #696969;
 	}
 }
 header nav a:hover{

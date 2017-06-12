@@ -6,7 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="_css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Bubbler+One" rel="stylesheet">
 	<link rel="icon" href="_img/favicon.ico" type="image/x-icon"/>
-	<link rel="stylesheet" type="text/css" href="_css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script type="text/javascript" src="_js/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript" src="_js/bootstrap.min.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -30,12 +30,24 @@
 					<a href="index.html"><img src="_img/logo.png" width="75%" alt="RedaçãoUP"></a>
 				</div>
 				<div class="col-sm-8">
-					<nav>
+					<nav id="default">
 						<a href="#">Início</a>
 						<a href="#">Sobre</a>
 						<a href="#">Contato</a>
 						<a href="#">Sou Escola</a>
 						<a href="#">Sou Aluno</a>
+					</nav>
+					<nav class="dropdown" id="mobile">
+						<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+							<span class="glyphicon glyphicon-menu-hamburger"></span>
+						</button>
+						<ul class="dropdown-menu" id="menu-ativado">
+							<li><a href="#">Início</a></li>
+							<li><a href="#">Sobre</a></li>
+							<li><a href="#">Contato</a></li>
+							<li><a href="#">Sou Escola</a></li>
+							<li><a href="#">Sou Aluno</a></li>
+						</ul>
 					</nav>
 				</div>
 			</div>		
