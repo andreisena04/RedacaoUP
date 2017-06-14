@@ -39,22 +39,23 @@ header nav a{
 		font-size: 200%;
 	}
 }
-@media only screen and (max-width: 712px){
+@media only screen and (max-width: 750px){
 	header nav a{
 		font-size: 175%;
 	}
 }
-@media only screen and (max-width: 616px){
+@media only screen and (max-width: 650px){
 	header nav a{
 		font-size: 150%;
 	}
 }
-@media only screen and (max-width: 536px){
+@media only screen and (max-width: 600px){
 	#mobile{
 		display: block;
 		position: fixed;
 		margin-left: -1%;
 		margin-top: -20%;
+		z-index: 1000;
 	}
 	#default{
 		display: none;
