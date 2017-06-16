@@ -1,8 +1,17 @@
 .dropdown{
 	display: none;
 }
+#fixed{
+	background-color: #fff;
+	height: 140px;
+	margin: 0 -15px;
+}
 header{
-	margin: 1%;
+	margin: 0 -15px 1% -15px;
+	padding: 1% 0;
+	position: fixed;
+	z-index: 900;
+	background-color: rgba(255, 255, 255, 0.8);
 }
 header img{
 	margin-left: 12%;
@@ -23,38 +32,56 @@ header nav a{
 	header nav a{
 		font-size: 175%;
 	}
+	#fixed{
+		height: 105px;
+	}
 }
 @media only screen and (max-width: 922px){
 	header nav a{
 		font-size: 150%;
+	}
+	#fixed{
+		height: 90px;
 	}
 }
 @media only screen and (max-width: 808px){
 	header nav a{
 		font-size: 125%;
 	}
+	#fixed{
+		height: 80px;
+	}
 }
 @media only screen and (max-width: 766px){
 	header nav a{
 		font-size: 200%;
+	}
+	#fixed{
+		height: 300px;
 	}
 }
 @media only screen and (max-width: 750px){
 	header nav a{
 		font-size: 175%;
 	}
+	#fixed{
+		height: 290px;
+	}
 }
 @media only screen and (max-width: 650px){
 	header nav a{
 		font-size: 150%;
+	}
+	#fixed{
+		height: 250px;
 	}
 }
 @media only screen and (max-width: 600px){
 	#mobile{
 		display: block;
 		position: fixed;
-		margin-left: -1%;
-		margin-top: -20%;
+		margin-left: 2%;
+		margin-top: -25%;
 		z-index: 1000;
 	}
 	#default{
@@ -66,6 +93,9 @@ header nav a{
 	#menu-ativado li a:hover{
 		background-color: #696969;
 	}
+	#fixed{
+		height: 180px;
+	}
 }
 header nav a:hover{
 	color: grey;
@@ -73,4 +103,13 @@ header nav a:hover{
 }
 section{
 	margin: 0 -15px;
+	height: 522px;
+}
+.grey{
+	background-color: #9d9d9d;
+}
+footer{
+	margin: 0 -15px;
+	height: 100px;
+	background-color: #009ed7;
 }
