@@ -1,3 +1,6 @@
+#slideshow-mobile{
+	display: none;
+}
 .dropdown{
 	display: none;
 }
@@ -74,6 +77,12 @@ header nav a{
 	}
 	#fixed{
 		height: 250px;
+	}
+	#slideshow{
+		display: none;
+	}
+	#slideshow-mobile{
+		display: block;
 	}
 }
 @media only screen and (max-width: 600px){
